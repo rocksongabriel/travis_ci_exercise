@@ -8,6 +8,7 @@ async function main() {
     await sleep(500);
     console.log('Travis CI in the buildingggg')
     await sleep(500)
+    console.log("-----------------------------")
   }
 }
 

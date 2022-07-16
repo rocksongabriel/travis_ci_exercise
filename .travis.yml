@@ -16,7 +16,7 @@ before_script:
 script: 
   - docker --version # print the version for logging
   - docker build -t simple-node .
-  - docker tag simple-node 
+  - docker tag simple-node gabrielrockson/simple-node
 
 # Tasks to perform after the process is successful. Formatting the Docker
 # username and password as below enables you to programmaticaly log in 
